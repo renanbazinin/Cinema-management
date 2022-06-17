@@ -24,7 +24,7 @@ export default function Edit() {
         const userData = userFromJSON.data
         console.log("userData")
         console.log(userData)
-        const perFromJSON = await axios.get(`${herokuURL}/permissionsfile`)
+        const perFromJSON = await axios.get(`${herokuURL}/users/permissionsfile`)
         const userDataPre = perFromJSON.data
         
         let createdC ="";
