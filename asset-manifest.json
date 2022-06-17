@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Cinema-management/static/css/main.073c9b0a.css",
-    "main.js": "/Cinema-management/static/js/main.00198550.js",
+    "main.js": "/Cinema-management/static/js/main.6353ccf8.js",
     "static/js/787.28cb0dcd.chunk.js": "/Cinema-management/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Cinema-management/index.html",
     "main.073c9b0a.css.map": "/Cinema-management/static/css/main.073c9b0a.css.map",
-    "main.00198550.js.map": "/Cinema-management/static/js/main.00198550.js.map",
+    "main.6353ccf8.js.map": "/Cinema-management/static/js/main.6353ccf8.js.map",
     "787.28cb0dcd.chunk.js.map": "/Cinema-management/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.00198550.js"
+    "static/js/main.6353ccf8.js"
   ]
 }
