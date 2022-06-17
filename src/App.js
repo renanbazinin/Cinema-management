@@ -62,7 +62,7 @@ export default function App() {
 
   }
   return <div className='App'>
-      {false?<button style={{alignContent:"flex-end"}} onClick={restartAndAdd}>Restart userDB (and add renan Admin)</button>:""}
+      {true?<button style={{alignContent:"flex-end"}} onClick={restartAndAdd}>Restart userDB (and add renan Admin)</button>:""}
       {!storeData.active?<div><br/><br/></div>:""}
       <div className='App'>
       {storeData.active?<h3>hello {sessionStorage.getItem("userName")}</h3>:""}

@@ -42,15 +42,21 @@ export default function LogIn() {
           setActiveUser({username:userDB.username,isExsit:true})
           dispatch({ type: "USERIN", payload: userDB.username })
           const userPerm = rawDataPerm.data.filter((perUser,i)=>{
-            return(perUser.id===userDB._id)
+            console.log(perUser)
+            ///Temp disable this :D
+            return("renan"===userDB.username)
 
           })
-          console.warn(userPerm[0].premissions)
+     
+      
+  
           dispatch({ type: "PERM", payload: userPerm[0].premissions })
+        
           sessionStorage.setItem("perm", userPerm[0].premissions)
           sessionStorage.setItem("userName", userDB.username)
           sessionStorage.setItem("loged",true)
           navigate("/movies")
+          
           return userDB
         }
       })
